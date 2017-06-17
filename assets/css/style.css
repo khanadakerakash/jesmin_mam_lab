@@ -1,0 +1,130 @@
+.department-tag, .jesmin-lab {
+    color: #2f1b72; /*#001F5F*/;
+    font-weight: bold;
+}
+
+.active-page {
+    color: #4caf50 !important;
+}
+
+
+.tag-line {
+    height: 2px;
+    width: 100%;
+    background-color: #C00000;
+}
+
+header label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.jesmin-lab {
+    padding: 10px 0 0 60px;
+}
+
+.bg-faded {
+    background-color: #C00000!important;
+}
+
+#main-navigation-bar {
+    padding: 10px 0;
+}
+
+.navbar-nav li a{
+    color: #ffffff!important;
+    font-size: 1.25rem;
+    line-height: inherit;
+    margin-right: 1rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    white-space: nowrap;
+}
+
+nav a {
+    color: #ffffff!important;
+    font-weight: bold;
+}
+
+#content-section h1 {
+    padding: 200px 0 200px 0;
+}
+
+/* --  Lab Members Sections -- */
+.heading-text {
+    padding-top: 20px;
+}
+
+.profile-text {
+    margin-left: -90px;
+}
+
+.profile-text span {
+    color: #01549b;
+}
+
+.big-img {
+    margin-top: -180px;
+}
+
+/* -- vertical-divider -- */
+.row.vertical-divider {
+    overflow: hidden;
+}
+.row.vertical-divider > div[class^="col-"] {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+    border-left: 1px solid #BEBEBE;
+    border-right: 1px solid #BEBEBE;
+}
+.row.vertical-divider div[class^="col-"]:first-child {
+    border-left: none;
+}
+.row.vertical-divider div[class^="col-"]:last-child {
+    border-right: none;
+}
+
+@media (min-width: 992px) {
+    .col-md-border:not(:last-child) {
+        border-right: 1px solid #d7d7d7;
+    }
+    .col-md-border + .col-md-border {
+        border-left: 1px solid #d7d7d7;
+        margin-left: -1px;
+    }
+}
+
+footer {
+    padding-top: 30px;
+}
+
+/* --- scroll to top --- */
+.scrollup{
+    position:fixed;
+    width:32px;
+    height:32px;
+    bottom:0px;
+    right:20px;
+    background: #222;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius:  2px 2px 0 0;
+}
+
+a.scrollup {
+    outline:0;
+    text-align: center;
+}
+
+a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
+    opacity:1;
+    text-decoration:none;
+}
+a.scrollup i {
+    margin-top: 10px;
+    color: #fff;
+}
+a.scrollup i:hover {
+    text-decoration:none;
+}
